@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form>
+        <div>
+            <label for="input-name">
+                Name
+            </label>
+            <input placeholder="Your name" id="input-name" type="text">
+        </div>
+        <br>
+        <div>
+            <label for="password-input">
+                Password
+            </label>
+            <input type="password" id="password-input">
+        </div>
+
+        <p>
+            Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. Eveniet sunt laudantium, vero architecto porro
+            doloribus ullam laboriosam minima minus nam,
+            similique, voluptate magnam officia dolore rerum quidem optio eius possimus?
+        </p>
+        <fieldset>
+            <legend>
+                User data
+            </legend>
+            <div>
+                <label for="input-city">
+                    City
+                </label>
+                <input id="input-city" type="text">
+            </div>
+            <br>
+            <div>
+                <label for="input-country">
+                    Country
+                    <!-- Ctrl+D -->
+                </label>
+                <input id="input-country" type="text">
+            </div>
+            <br>
+            <textarea cols="10" rows="3"></textarea>
+        </fieldset>
+        <br>
+        <select>
+            <option value="html knowladge">HTML</option>
+            <option selected value="002">CSS</option>
+            <option value="003">JS</option>
+            <option value="007">ES7</option>
+        </select>
+        <select>
+            <option value="0">Самовивіз</option>
+            <option value="30">Доставка delivery</option>
+        </select>
+
+        <br>
+        <div>
+            Male
+            <input type="radio" name="gender" value="male">
+        </div>
+        <div>
+            Female
+            <input type="radio" name="gender" value="Female">
+        </div>
+        <br>
+        <div>
+            Mazda
+            <input type="checkbox" name="vahicle" value="mazda">
+        </div>
+        <div>
+            Reno
+            <input type="checkbox" name="vahicle2" value="reno">
+        </div>
+        <div>
+            Ford
+            <input type="checkbox" name="vahicle3" value="ford">
+        </div>
+        <br>
+        <input type="submit" disabled value="Відправка данних на сервер">
+    </form>
+    <audio controls>
+        <source src="mp3/home_alone_12-john_williams-carol_of_the_bells.mp3">
+    </audio>
+    <br>
+    <video controls width="520" height="307">
+        <source src="mp4/Berko.mov">
+    </video>
+    <iframe width="520" height="300" src="https://www.youtube.com/embed/rtxgKCzEy9c?controls=0"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
+    <br>
+    <div>
+        <img src="img/IMG_9862.JPG" alt="leaves" width="600" height="300">
+    </div>
+    <br>
+    <!-- <input class="favorite styled" type="button" value="Add to favorites"> -->
+    <p>Choose your monster's colors:</p>
+
+    <div>
+        <input type="color" id="head" name="head" value="#e66465">
+        <label for="head">Head</label>
+    </div>
+
+    <div>
+        <input type="color" id="body" name="body" value="#f6b73c">
+        <label for="body">Body</label>
+    </div>
+    <br>
+    <label for="start">Start date:</label>
+
+    <input type="date" id="start" name="trip-start" value="2023-05-19" min="2018-01-01" max="2024-12-31">
+    <br>
+    <label for="meeting-time">Choose a time for your appointment:</label>
+
+    <input type="datetime-local" id="meeting-time" name="meeting-time" value="2023-06-12T19:30" min="2018-06-07T00:00"
+        max="2024-06-14T00:00">
+    <br>
+    <label for="email">Enter your globex.com email:</label>
+
+    <input type="email" id="email" pattern=".+@globex\.com" size="45" required>
+    <br>
+    <label for="avatar">Choose a profile picture:</label>
+
+    <input type="file" id="avatar" name="avatar" accept="image/png, image/jpeg">
+
+
+
+
+
+</body>
+
+</html>

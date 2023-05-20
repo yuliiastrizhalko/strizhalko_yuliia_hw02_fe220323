@@ -1,0 +1,12 @@
+.content {
+    font-family: "Google Sans", Roboto, arial, sans-serif;
+}
+li>a, .text>p>a {
+    text-decoration: none;
+}
+.bolt {
+    font-weight: bold;
+}
+.coursiv {
+    font-style: italic;
+}
